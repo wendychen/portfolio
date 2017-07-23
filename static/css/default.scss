@@ -4,7 +4,7 @@ Responsive Web Design
 // Variables
 $primary-color: rgba(47, 48, 61, 1.0);
 $secondary-color: #FCFFFC;
-$link-color: darkblue;
+$link-color: rgb(47, 148, 61);
 $font-stack: sans-serif;
 // Reset 
 @import 'reset';
@@ -111,6 +111,7 @@ footer {
   */
   img {
     border: 1px solid #ccc;
+    background: #ccc;
   }
   img:hover {
       border: 1px solid #999;
