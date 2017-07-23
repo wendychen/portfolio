@@ -1,0 +1,87 @@
+/*
+Responsive Web Design
+*/
+// Variables
+$primary-color: rgba(36, 130, 50, 0.9);
+$secondary-color: #FCFFFC;
+$font-stack: sans-serif;
+// Reset 
+@import 'reset';
+
+// Main Settings
+#wrapper {
+  text-align: center;
+}
+
+body {
+  text-align: left;
+  background: $secondary-color url('../img/confectionary.png');
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+header {
+  height: 120px;
+  background: $primary-color ;
+
+  h1, h2 {
+    margin: 0; padding: 0;
+  }
+  h1 {
+    padding: 10px;
+    font: 32px $font-stack;
+    color: $secondary-color;
+  }
+  h2 {
+    font: 20px $font-stack;
+    color: $secondary-color;
+  }
+}
+
+#content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+footer {
+  clear: both;
+  min-height: 250px;
+  color: $secondary-color;
+  background: $primary-color;
+  p {
+    padding: 10px;
+  }
+}
+
+.timeline {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+.work {
+  float: right;
+  width: 80%;  
+  padding: 10px;
+}
+
+.thumbnail {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+
+.description {
+  padding-left: 20px;
+  ul {
+    list-style: disc;  
+    margin: 15px;
+    li {
+      margin: 10px;
+    }
+  }
+
+}

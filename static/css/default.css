@@ -1,0 +1,110 @@
+/*
+Responsive Web Design
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#wrapper {
+  text-align: center; }
+
+body {
+  text-align: left;
+  background: #FCFFFC url("../img/confectionary.png"); }
+  body img {
+    max-width: 100%;
+    height: auto; }
+
+header {
+  height: 120px;
+  background: rgba(36, 130, 50, 0.9); }
+  header h1, header h2 {
+    margin: 0;
+    padding: 0; }
+  header h1 {
+    padding: 10px;
+    font: 32px sans-serif;
+    color: #FCFFFC; }
+  header h2 {
+    font: 20px sans-serif;
+    color: #FCFFFC; }
+
+#content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left; }
+
+footer {
+  clear: both;
+  min-height: 250px;
+  color: #FCFFFC;
+  background: rgba(36, 130, 50, 0.9); }
+  footer p {
+    padding: 10px; }
+
+.timeline {
+  float: left;
+  width: 10%;
+  height: 100%; }
+
+.work {
+  float: right;
+  width: 80%;
+  padding: 10px; }
+
+.thumbnail {
+  min-width: 200px;
+  min-height: 200px; }
+
+.description {
+  padding-left: 20px; }
+  .description ul {
+    list-style: disc;
+    margin: 15px; }
+    .description ul li {
+      margin: 10px; }
+
+/*# sourceMappingURL=default.css.map */
