@@ -68,6 +68,14 @@ header {
   background: $primary-color;
   //border-bottom: 5px solid #ccc;
   box-shadow: 0 5px 2px $primary-shadow-color;
+  #profile {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #profile img {
+    border-radius: 60px;
+  }
   h1, h2 {
     margin: 0; padding: 0;
   }
@@ -97,6 +105,9 @@ footer {
   box-shadow: 0 -2px 1px $primary-shadow-color;
   p {
     padding: 10px;
+  }
+  a {
+    color: #CFCFCF;
   }
 }
 
